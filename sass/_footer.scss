@@ -1,0 +1,23 @@
+.nav__footer__container{
+    text-align:center;
+    border-top:solid 1px #000;
+    height: 40px;
+
+    .nav__footer__container__list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+        li{
+            @include p20;
+
+            a{
+                @include lien;
+            }
+        }      
+    }  
+}
+
+
+

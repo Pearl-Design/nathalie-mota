@@ -1,10 +1,82 @@
 @charset "UTF-8";
 /*
- Theme Name:  Fleurs d'orangers et chats errants - Oscars Short
- Theme URI: https://www.koukaki.local
- Author: Studio Koukaki
- Author URI: https://www.koukaki.local
- Template: foce
- Description: Thème enfant à l'ocasion de la nomination aux Oscars Shorts
- Version: 0.1
- */
+Theme Name: nathalie-mota
+Author: Jenna Amsellem
+Description: photographe professionnelle dans l’événementiel.
+Version: 1.0.0
+Text Domain: nathaliemota
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+ul li {
+  display: inline-block;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  height: 80px;
+  -webkit-box-shadow: 0px 11px 12px -7px rgba(126, 126, 126, 0.226);
+  box-shadow: 0px 11px 12px -7px rgba(126, 126, 126, 0.226);
+}
+.header .header__container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.header .header__container .burger-menu-toggle {
+  display: none;
+}
+.header .header__container .nav__header__container li {
+  padding: 0 20px;
+}
+.header .header__container .nav__header__container li a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.7px;
+  text-transform: uppercase;
+}
+.header .header__container .nav__header__container li a:hover {
+  font-weight: 700;
+}
+
+.nav__footer__container {
+  text-align: center;
+  border-top: solid 1px #000;
+  height: 40px;
+}
+.nav__footer__container .nav__footer__container__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.nav__footer__container .nav__footer__container__list li {
+  padding: 0 20px;
+}
+.nav__footer__container .nav__footer__container__list li a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.7px;
+  text-transform: uppercase;
+}
+.nav__footer__container .nav__footer__container__list li a:hover {
+  font-weight: 700;
+}

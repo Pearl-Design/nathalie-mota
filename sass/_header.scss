@@ -1,0 +1,31 @@
+.header {
+    position: sticky;
+    top:0;
+    height: 80px;
+    -webkit-box-shadow: 0px 11px 12px -7px rgba(126, 126, 126, 0.226); 
+    box-shadow: 0px 11px 12px -7px rgba(126, 126, 126, 0.226);  
+
+    .header__container{
+        max-width: 1200px;
+        width: 100%;
+        margin:0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+
+        .burger-menu-toggle{
+            display: none;
+        }
+
+        .nav__header__container li{
+            @include p20;
+
+            a{
+                @include lien;
+    
+               
+            }
+        }
+    }   
+}
