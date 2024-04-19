@@ -1,0 +1,98 @@
+@media (max-width: 991.98px) {
+    
+  }
+  
+  
+  @media (max-width: 767.98px) {
+    .header .header__container .nav__header__container{
+        display: none;
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+            li{
+                display: block;
+                padding:20px 0;
+
+                a{
+                    color:#fff;
+                    font-family: Space Mono;
+                    font-size: 44px;
+                    line-height: 65.16px;
+
+                }
+            }
+        }
+
+        
+    }
+    .header .header__container.active{
+
+        .nav__header__container{
+            display: block;
+            position: fixed;
+            top: 80px;
+            left: 0;
+            background-color:#E00000;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .bar:nth-child(1) {
+            transform: translateY(12px) rotate(45deg);
+            }
+            
+         .bar:nth-child(2) {
+            opacity: 0;
+            }
+            
+         .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+            }
+    }
+    .header .header__container .burger-menu-toggle{
+        display: block;
+    }
+    .modal .modal__content{
+        max-width: 480px;
+    }
+  }
+  
+  @media (max-width: 575.98px) {
+    .modal .modal__content{
+        max-width: 286px;
+
+        .modal__content__text {
+            font-size: 34px;
+            height: 55px;
+            line-height: 28px;
+          }
+
+        .popup__content__form {
+            margin-top: 87px;
+
+            .form-modal > div textarea{
+                height: 150px;
+            }
+          }
+    }
+
+    .nav__footer__container{
+        height: auto;
+        padding-top: 44px;
+
+        .nav__footer__container__list{
+            flex-direction: column;
+            height: auto;
+
+            li{
+                padding:10px 0
+            }
+        }
+    }
+    
+    }
