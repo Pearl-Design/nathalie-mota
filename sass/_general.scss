@@ -16,3 +16,15 @@ ul li {
 body{
     font-family: "Space Mono", monospace;
 }
+
+.thumbnail {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px; /* Ajustez la taille de la miniature selon vos besoins */
+    height: 100px; /* Ajustez la taille de la miniature selon vos besoins */
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ccc;
+    z-index: 9999;
+}

@@ -17,3 +17,4 @@ wp_nav_menu( array(
     </div>
   </div>
 </div>
+<?php wp_footer(); ?>
